@@ -6,11 +6,11 @@
 
     <groupId>se.iths.axel</groupId>
     <artifactId>textformatter-library</artifactId>
-    <version>1.0.0</version>
+    <version>2.0.0</version>
 
     <properties>
-        <maven.compiler.source>21</maven.compiler.source>
-        <maven.compiler.target>21</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
@@ -20,4 +20,10 @@
             <version>6.2.5</version>
         </dependency>
     </dependencies>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/axsty/textformatter-library</url>
+        </repository>
+    </distributionManagement>
 </project>
